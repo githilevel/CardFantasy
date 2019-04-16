@@ -1086,9 +1086,9 @@ public class SkillResolver {
                 SoulControl.apply(this, skillUseInfo, attacker, defender);
                 Revive.apply(this, skillUseInfo, attacker);
             } else if (skillUseInfo.getType() == SkillType.冰刃) {
-                IceTouch.apply(skillUseInfo, this, attacker, defender, 3);
-                IceTouch.apply(skillUseInfo, this, attacker, defender, 3);
-                IceTouch.apply(skillUseInfo, this, attacker, defender, 3);
+                IceTouch.apply(skillUseInfo, this, attacker, defender, 1);
+                IceTouch.apply(skillUseInfo, this, attacker, defender, 1);
+                IceTouch.apply(skillUseInfo, this, attacker, defender, 1);
             } else if (skillUseInfo.getType() == SkillType.逆转之风) {
                 Transport.apply(this, skillUseInfo.getSkill(), attacker, defender);
                 RegressionSoul.apply(this, skillUseInfo, attacker, defender);
